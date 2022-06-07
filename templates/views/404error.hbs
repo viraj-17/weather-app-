@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1>
+    <button type="button" class="btn btn-primary">Primary</button> -->
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header ">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto ">
+          <div class="row">
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+              <figure class="errimg">
+                <img
+                  src="images/error.png"
+                  alt="image"
+                  class="img-fuid"
+                  title="devloper"
+                />
+              </figure>
+            
+           
+              <p>Welcome to the weather app</p>
+              <h1>
+               {{errorMsg}}
+              </h1>
+              <a href="/"><button>Go Back</button></a>
+              </div>
+
+              <!-- right header -->
+              </div>
+        
+            </div>
+          </div>
+        
+        
+        </div>
+    {{>footer}}
+  </body>
+</html>
